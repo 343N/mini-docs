@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+body {
+	padding: 0px;
+	margin: 0px;
+	/*font-family: sans-serif;*/
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.SideBar#container{
+	position: fixed;
+	height: 100%;
+	display: table;
+	left: 0px;
+	width: 20%;
+	background-color: #EEEEEE;
+	/*vertical-align: top;*/
+	/*overflow: */
+	text-align: center;
+	/*padding-top: 1%;*/
+	font-size: 20px;
+	outline: 1px solid #757575;
+}
+
+.SideBar#heading{
+	/*top%;*/
+	position: absolute;
+	/*display: table-cell;
+    vertical-align: middle;*/
+	/*vertical-align: middle;*/
+	/*top: 20px;*/
+	top: 5%;
+	color: #424242;
+	height: auto;
+	width: 80%;
+	left: 10%;
+	/*line-height: 1.5vw;*/
+	font-size: 1.5vw;
+	transform: translateY(-50%);
+	/*align-content: middle;*/
+	
+}
+
+.SideBar#packageList{
+	position: absolute;
+	height: 85%;
+	top: 10%;
+	/*padding-top: */
+	/*vertical-align: top;*/
+	width: 90%;
+	left: 5%;
+	/*outline: pink;*/
+	border: 1px solid #9e9e9e;
+	background-color: #BDBDBD;
+}
+
+
+
+
+
+.HeaderBar#container{
+	position: fixed;
+	/*height: 100%;*/
+	height: 7%;
+	left: 20%;
+	width: 80%;
+	background-color: #EEEEEE;
+	outline: 1px solid #757575;
+	align-content: center;
+	vertical-align: middle;
+}
+
+
+.HeaderBar#searchInput {
+	/*top: 50%;*/
+	vertical-align: middle;
+	outline: 1px solid #BDBDBD;
+	background-color: #E0E0E0;
+	color: #424242;
+	border: none;
+	position: relative;
+	width: 50%;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	top: 15%;
+	height: 70%;
+	left: 25%;
+	transition: .2s all;
+}
+
+.HeaderBar#searchInput:focus {
+	/*top: 50%;*/
+	/*vertical-align: middle;*/
+	outline: 1px solid #9e9e9e;
+	background-color: #E0E0E0;
+	color: #424242;
+}
+
+.ModalContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+}
+
+.ModalContainer#Package {
+	position: relative;
+	width: 100%;
+	height: auto;
+	/*top: 0px;*/
+	overflow: hidden;
+	background-color: #616161;
+	margin: none;
+	
+}
+
+
+.ModalContainer input{
+	position: relative;
+	width: 100%;
+	/*left: 2.5%;*/
+	/*margin: 0px;*/
+	
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 4px;
+}
+
+.ModalContainer button{
+	width: 100%;
+	padding: none;
+	/*margin: none;*/
+	background-color: rgba(0,0,0,.1);
+	transition: all .2s;
+	border: none;
+}
+
+.ModalContainer button:hover{
+	background-color: rgba(255,255,255,.1);
+}
